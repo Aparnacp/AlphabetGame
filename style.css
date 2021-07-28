@@ -1,0 +1,175 @@
+@import url("https://fonts.googleapis.com/css2?family=Stardos+Stencil&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+html {
+  max-height: 100vh;
+  font-family: "Stardos Stencil", cursive, sans-serif;
+  font-size: 2rem;
+}
+body {
+  box-sizing: border-box;
+  background-color: hotpink;
+  text-align: center;
+  max-height: 100vh;
+  font-family: "Stardos Stencil", cursive, sans-serif;
+}
+
+header {
+  margin-top: 30px;
+}
+
+h3 {
+  color: white;
+}
+
+h5 {
+  display: block;
+  margin: auto;
+  text-align: center;
+  color: white;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 25px;
+}
+
+.range {
+  padding: 10px 20px;
+  width: 220px;
+  height: 90px;
+  font-size: 1.5rem;
+  border: 5px solid pink;
+  box-shadow: 5px 5px 2px 1px rgba(9, 252, 159, 0.2);
+  border-radius: 5px;
+  color: hotpink;
+  background-color: rgb(239, 239, 239);
+  align-items: center;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.letter {
+  padding: 10px 20px;
+  width: 220px;
+  height: 90px;
+  font-size: 1.5rem;
+  border: 5px solid pink;
+  box-shadow: 5px 5px 2px 1px rgba(9, 252, 159, 0.2);
+  border-radius: 5px;
+  background-color: rgb(239, 239, 239);
+  color: hotpink;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.playagain {
+  padding: 10px 20px;
+  width: 220px;
+  height: 90px;
+  font-size: 1rem;
+  border: 5px solid pink;
+  box-shadow: 5px 5px 2px 1px rgba(9, 252, 159, 0.2);
+  border-radius: 5px;
+  color: rgb(253, 8, 131);
+  cursor: pointer;
+}
+
+.playagain:hover {
+  font-size: 0.75rem;
+}
+
+main {
+  margin-top: 20px;
+  padding: 15px;
+  border: 5px solid pink;
+  border-right: none;
+  border-left: none;
+}
+
+.left,
+.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
+.guess {
+  display: block;
+  width: 200px;
+  height: 100px;
+  margin: auto;
+  border: 5px solid white;
+  background-color: hotpink;
+  color: white;
+  text-align: center;
+  font-size: 45px;
+  font-weight: bold;
+  box-shadow: -2px -2px 2px 1px #eee;
+  outline: none;
+}
+
+input::placeholder {
+  text-align: center;
+  font-size: 20px;
+  color: white;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 50px auto 30px;
+  display: block;
+  width: 200px;
+  height: 50px;
+  line-height: 50px;
+  text-align: center;
+  border-radius: 10px;
+  border: 5px solid pink;
+  box-shadow: 2px 5px 2px 1px rgba(9, 252, 159, 0.2);
+  background-color: rgb(239, 239, 239);
+  color: hotpink;
+  font-weight: bold;
+  font-size: 1rem;
+}
+
+.check:hover {
+  background-color: white;
+  font-size: 0.75rem;
+}
+
+p {
+  padding: 18px;
+  color: white;
+  font-size: 20px;
+  margin-top: auto;
+}
+
+.copyright {
+  font-size: 15px;
+}
+
+.best {
+  border: 2px solid pink;
+}
+
+.message,
+.score {
+  font-size: 0.9rem;
+  color: white;
+}
